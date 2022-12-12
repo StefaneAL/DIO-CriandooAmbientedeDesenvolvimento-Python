@@ -45,3 +45,6 @@ Diretório -> https://www.delftstack.com/pt/tutorial/python-3-basic-tutorial/pyt
 Como usar e criar Virtualenv no Windows 10 -> https://ansistemas.com/como-usar-criar-virtualenv-windows10/
 
 
+# Concluido
+[![certificate](https://hermes.digitalinnovation.one/certificates/cover/DF054B61.jpg)](https://www.dio.me/certificate/DF054B61)
+
