@@ -13,33 +13,33 @@ string.digits # digitos
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 import math
-math.exp(1) # exponencial
-math.pi # valor de pi
-math.factorial(10) # fatorial
+math.exp(1) # 2.718281828459045
+math.pi # 3.141592653589793
+math.factorial(10) # 3628800
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 from datetime import date
-hoje = date.today() # data de hoje
-hoje # visualizando a variavel
-nascimento = date(1997, 3, 28) # meu aniversario
-idade = hoje - nascimento # minha idade em dias
-idade.days # minha idade em dias
+hoje = date.today() # datetime.date(2022, 12, 12)
+hoje # datetime.date(2022, 12, 12)
+nascimento = date(1989, 5, 12) # datetime.date(1989, 5, 12)
+idade = hoje - nascimento # datetime.timedelta(days=12267)
+idade.days # 12267
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 import random
-random.choice(['Julia', 'Ana', 'Maria', "Renata]) # Sorteio
-random.sample(range(100), 10)   # Sorteio
-random.random() # sorteio de numero decimal
-random.randrange(6)    # sorteio de numero inteiro
+random.choice(['Julia', 'Ana', 'Maria', "Renata"]) # 'Julia'
+random.sample(range(100), 10)   # [61, 82, 32, 60, 46, 1, 74, 23, 29, 31]
+random.random() # 0.379937725159599
+random.randrange(6)    # 2
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 import statistics
 data = [8, 9, 1.25, 0.25, 7, 1.25, 10]
-statistics.mean(data)
-statistics.median(data)
-statistics.variance(data)
+statistics.mean(data) # 5.25
+statistics.median(data) # 7
+statistics.variance(data) # 17.375
 
 
